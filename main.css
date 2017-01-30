@@ -1,0 +1,306 @@
+body {
+  background:#000000;
+}
+.board {
+  margin:auto;
+  position:relative;
+  top:50px;
+  overflow:hidden;
+  border:5px solid #fff;
+  border-radius:5px;
+  z-index:3;
+  width:735px;
+  height:135px;
+}
+
+.block-digital {
+  float: left;
+  position: relative;
+  z-index:10;
+  width:90px;
+  height:135px;
+}
+.block-padding {
+  float: left;
+  position: relative;
+  z-index:10;
+  width:15px;
+  height:135px;
+}
+.light {
+  position:absolute;
+  margin:1px;
+  border-radius:13px;
+  width:13px;
+  height:13px;
+}
+.wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.colon .row-2.col-2,
+.colon .row-2.col-3,
+.colon .row-3.col-2,
+.colon .row-3.col-3,
+.colon .row-5.col-2,
+.colon .row-5.col-3,
+.colon .row-6.col-2,
+.colon .row-6.col-3
+{
+  background:#FF0000;
+}
+
+.num-0 .row-1.col-2,
+.num-0 .row-1.col-3,
+.num-0 .row-1.col-4,
+.num-0 .row-2.col-1,
+.num-0 .row-2.col-5,
+.num-0 .row-3.col-1,
+.num-0 .row-3.col-4,
+.num-0 .row-3.col-5,
+.num-0 .row-4.col-1,
+.num-0 .row-4.col-3,
+.num-0 .row-4.col-5,
+.num-0 .row-5.col-1,
+.num-0 .row-5.col-1,
+.num-0 .row-5.col-2,
+.num-0 .row-5.col-5,
+.num-0 .row-6.col-1,
+.num-0 .row-6.col-5,
+.num-0 .row-7.col-2,
+.num-0 .row-7.col-3,
+.num-0 .row-7.col-4
+
+{
+  background:#FF0000;
+}
+
+.num-1 .row-1.col-3,
+.num-1 .row-2.col-2,
+.num-1 .row-2.col-3,
+.num-1 .row-3.col-3,
+.num-1 .row-4.col-3,
+.num-1 .row-5.col-3,
+.num-1 .row-6.col-3,
+.num-1 .row-7.col-2,
+.num-1 .row-7.col-3,
+.num-1 .row-7.col-4
+{
+  background:#FF0000;
+}
+
+.num-2 .row-1.col-2,
+.num-2 .row-1.col-3,
+.num-2 .row-1.col-4,
+.num-2 .row-2.col-1,
+.num-2 .row-2.col-5,
+.num-2 .row-3.col-5,
+.num-2 .row-4.col-4,
+.num-2 .row-5.col-3,
+.num-2 .row-6.col-2,
+.num-2 .row-7.col-1,
+.num-2 .row-7.col-2,
+.num-2 .row-7.col-3,
+.num-2 .row-7.col-4,
+.num-2 .row-7.col-5
+{
+  background:#FF0000;
+}
+
+.num-3 .row-1.col-1,
+.num-3 .row-1.col-2,
+.num-3 .row-1.col-3,
+.num-3 .row-1.col-4,
+.num-3 .row-1.col-5,
+.num-3 .row-2.col-4,
+.num-3 .row-3.col-3,
+.num-3 .row-4.col-4,
+.num-3 .row-5.col-5,
+.num-3 .row-6.col-1,
+.num-3 .row-6.col-5,
+.num-3 .row-7.col-4,
+.num-3 .row-7.col-3,
+.num-3 .row-7.col-2
+{
+  /*background:#ffff33;*/
+  background:#FF0000;
+}
+
+.num-4 .row-1.col-4,
+.num-4 .row-2.col-3,
+.num-4 .row-2.col-4,
+.num-4 .row-3.col-2,
+.num-4 .row-3.col-4,
+.num-4 .row-4.col-1,
+.num-4 .row-4.col-4,
+.num-4 .row-5.col-1,
+.num-4 .row-5.col-2,
+.num-4 .row-5.col-3,
+.num-4 .row-5.col-4,
+.num-4 .row-5.col-5,
+.num-4 .row-6.col-4,
+.num-4 .row-7.col-4
+{
+  background:#FF0000;
+}
+
+.num-5 .row-1.col-1,
+.num-5 .row-1.col-2,
+.num-5 .row-1.col-3,
+.num-5 .row-1.col-4,
+.num-5 .row-1.col-5,
+.num-5 .row-2.col-1,
+.num-5 .row-3.col-1,
+.num-5 .row-3.col-2,
+.num-5 .row-3.col-3,
+.num-5 .row-3.col-4,
+.num-5 .row-4.col-5,
+.num-5 .row-5.col-5,
+.num-5 .row-6.col-1,
+.num-5 .row-6.col-5,
+.num-5 .row-7.col-2,
+.num-5 .row-7.col-3,
+.num-5 .row-7.col-4
+{
+  /*background:#ffff33;*/
+  background:#FF0000;
+}
+
+.num-6 .row-1.col-3,
+.num-6 .row-1.col-4,
+.num-6 .row-2.col-2,
+.num-6 .row-3.col-1,
+.num-6 .row-4.col-1,
+.num-6 .row-4.col-2,
+.num-6 .row-4.col-3,
+.num-6 .row-4.col-4,
+.num-6 .row-5.col-1,
+.num-6 .row-5.col-5,
+.num-6 .row-6.col-1,
+.num-6 .row-6.col-5,
+.num-6 .row-7.col-2,
+.num-6 .row-7.col-3,
+.num-6 .row-7.col-4
+{
+  background:#FF0000;
+}
+
+.num-7 .row-1.col-1,
+.num-7 .row-1.col-2,
+.num-7 .row-1.col-3,
+.num-7 .row-1.col-4,
+.num-7 .row-1.col-5,
+.num-7 .row-2.col-5,
+.num-7 .row-3.col-4,
+.num-7 .row-4.col-3,
+.num-7 .row-5.col-2,
+.num-7 .row-6.col-2,
+.num-7 .row-7.col-2
+{
+  background:#FF0000;
+}
+
+.num-8 .row-1.col-2,
+.num-8 .row-1.col-3,
+.num-8 .row-1.col-4,
+.num-8 .row-2.col-1,
+.num-8 .row-2.col-5,
+.num-8 .row-3.col-1,
+.num-8 .row-3.col-5,
+.num-8 .row-4.col-2,
+.num-8 .row-4.col-3,
+.num-8 .row-4.col-4,
+.num-8 .row-5.col-1,
+.num-8 .row-5.col-5,
+.num-8 .row-6.col-1,
+.num-8 .row-6.col-5,
+.num-8 .row-7.col-2,
+.num-8 .row-7.col-3,
+.num-8 .row-7.col-4
+{
+  background:#FF0000;
+}
+
+.num-9 .row-1.col-2,
+.num-9 .row-1.col-3,
+.num-9 .row-1.col-4,
+.num-9 .row-2.col-1,
+.num-9 .row-2.col-5,
+.num-9 .row-3.col-1,
+.num-9 .row-3.col-5,
+.num-9 .row-4.col-2,
+.num-9 .row-4.col-3,
+.num-9 .row-4.col-4,
+.num-9 .row-4.col-5,
+.num-9 .row-5.col-5,
+.num-9 .row-6.col-4,
+.num-9 .row-7.col-2,
+.num-9 .row-7.col-3
+{
+  background:#FF0000;
+}
+.ui-corner-all
+        {
+            -moz-border-radius: 4px 4px 4px 4px;
+        }
+        .ui-widget-content
+        {
+            border: 5px solid black;
+            color: #222222;
+            background-color: skyblue;
+        }
+        .ui-widget
+        {
+            font-family: Verdana,Arial,sans-serif;
+            font-size: 15px;
+        }
+        .ui-menu
+        {
+            display: block;
+            float: left;
+            list-style: none outside none;
+            margin: 0;
+            padding: 2px;
+        }
+        .ui-autocomplete
+        {
+            cursor: default;
+            position: absolute;
+        }
+        .ui-menu .ui-menu-item
+        {
+            clear: left;
+            float: left;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        .ui-menu .ui-menu-item a
+        {
+            display: block;
+            padding: 3px 3px 3px 3px;
+            text-decoration: none;
+            cursor: pointer;
+            background-color: Green;
+        }
+        .ui-menu .ui-menu-item a:hover
+        {
+            display: block;
+            padding: 3px 3px 3px 3px;
+            text-decoration: none;
+            color: White;
+            cursor: pointer;
+            background-color: ButtonText;
+        }
+        .ui-widget-content a
+        {
+            color: #222222;
+        }
